@@ -1,0 +1,3 @@
+generated-firmwares/go7007/ lib/firmware/
+generated-firmwares/s2250* lib/firmware/
+generated-firmwares/f2255* lib/firmware/

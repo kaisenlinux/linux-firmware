@@ -14,6 +14,12 @@ Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Description: Binary firmware for Alteon AceNIC Gigabit Ethernet card
 
+Package: linux-firmware-adaptec
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Adaptec Starfire/DuraLAN
+
 Package: linux-firmware-advansys
 Architecture: all
 Depends: ${misc:Depends}
@@ -41,6 +47,13 @@ Suggests: initramfs-tools
 Replaces: amd64-microcode
 Description: AMD CPU Microcode
 
+Package: linux-firmware-amphion
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: amd64-microcode
+Description: Binary firmware for Amphion VPU(Video Processing Unit) Codec IP
+
 Package: linux-firmware-atheros
 Architecture: all
 Depends: ${misc:Depends} 
@@ -54,12 +67,25 @@ Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Description: Binary firmware for Atmel wireless networking chips
 
+Package: linux-firmware-atusb
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for ATUSB IEEE 802.15.4 transceiver
+
 Package: linux-firmware-broadcom
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-bnx2, firmware-bnx2x, firmware-misc-nonfree, firmware-brcm80211
 Description: Binary firmware for Broadcom/Cypress 802.11
+
+Package: linux-firmware-cadence
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-bnx2, firmware-bnx2x, firmware-misc-nonfree, firmware-brcm80211
+Description: Binary firmware for Cadence MHDP8546 DP bridge
 
 Package: linux-firmware-cavium
 Architecture: all
@@ -75,12 +101,31 @@ Suggests: initramfs-tools
 Replaces: firmware-misc-nonfree
 Description: Binary firmware for Chelsio Terminator 3 1G/10G Ethernet adapter
 
+Package: linux-firmware-cirrus
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for CS35l41 ALSA HDA audio driver
+
 Package: linux-firmware-conexant
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-misc-nonfree
 Description: Binary firmware for Conexant USB Wifi/Bluetooth and others PCI devices
+
+Package: linux-firmware-dpaa2
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree, firmware-linux-free, firmware-siano
+Description: Binary firmware for NXP Management Complex Bus
+
+Package: linux-firmware-doc
+Architecture: all
+Depends: ${misc:Depends}
+Description: All documentation for Linux firmware (licence files)
 
 Package: linux-firmware-dvb
 Architecture: all
@@ -101,6 +146,12 @@ Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-misc-nonfree
 Description: Binary firmware for ENE UB6250 SD card reader
+
+Package: linux-firmware-inside-secure
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Inside Secure EIP197 crypto
 
 Package: linux-firmware-intel-bluetooth
 Architecture: all
@@ -190,12 +241,25 @@ Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Description: Binary firmware for Mellanox spectrum switch
 
+Package: linux-firmware-microchip
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Microchip PHY
+
 Package: linux-firmware-misc
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-misc-nonfree, firmware-linux-free
 Description: Binary firmware for various drivers in the Linux kernel
+
+Package: linux-firmware-multitec-usb
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree, firmware-linux-free
+Description: Binary firmware for Multi-Tech USB
 
 Package: linux-firmware-myricom
 Architecture: all
@@ -246,12 +310,48 @@ Suggests: initramfs-tools
 Replaces: firmware-realtek
 Description: Binary firmware for Realtek wireless/bluetooth/wired devices
 
+Package: linux-firmware-redpine
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Redpine Signals Inc 91x
+
+Package: linux-firmware-renesas
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Renesas R-Car Gen2/3 USB 3.0 host controller
+
+Package: linux-firmware-rockchip
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for ROCKCHIP rk3399 dptx
+
+Package: linux-firmware-rocketport
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Comtrol RocketPort 2 serial
+
 Package: linux-firmware-samsung
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-samsung
 Description: Binary firmware for Samsung MFC video encoder/decoder driver
+
+Package: linux-firmware-sensoray
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Sensoray video capture models
+
+Package: linux-firmware-tehuti
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Tehuti Networks 10G Ethernet
 
 Package: linux-firmware-ti
 Architecture: all
@@ -266,3 +366,27 @@ Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-misc-nonfree
 Description: Binary firmware for USB ADSL Modems based on Eagle
+
+Package: linux-firmware-usbdux
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for usbdux data acquisition cards
+
+Package: linux-firmware-vxge
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Exar X3100 Series 10GbE PCIe I/O Virtualized Server Adapter
+
+Package: linux-firmware-wave5
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Chips&Media, Inc. video codec driver
+
+Package: linux-firmware-wfx
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Silicon Labs Wi-Fi Transceiver

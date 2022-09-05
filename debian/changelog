@@ -1,3 +1,10 @@
+linux-firmware (20220815-2kaisen) kaisen-packages; urgency=medium
+
+  * Improve packaging (remove few firmware from misc to add their own package)
+  * Add doc package to add LICENCE* files
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 05 Sep 2022 18:14:26 +0100
+
 linux-firmware (20220815-1kaisen) kaisen-testing; urgency=medium
 
   * Initial release to replace firmware-nonfree source package created by
