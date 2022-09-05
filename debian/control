@@ -1,0 +1,268 @@
+Source: linux-firmware
+Section: non-free/kernel
+Priority: optional
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Vcs-Browser: https://gitlab.com/kaisenlinux/packages/linux-firmware
+Vcs-Git: https://gitlab.com/kaisenlinux/packages/linux-firmware.git
+
+Package: linux-firmware-acenic
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Alteon AceNIC Gigabit Ethernet card
+
+Package: linux-firmware-advansys
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for AdvanSys SCSI
+
+Package: linux-firmware-alacritech
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Alacritech IS-NIC
+
+Package: linux-firmware-amd-graphics
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-amd-graphics
+Description: Binary firmware for AMD/ATI graphics chips
+
+Package: linux-firmware-amd-microcode
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: amd64-microcode
+Description: AMD CPU Microcode
+
+Package: linux-firmware-atheros
+Architecture: all
+Depends: ${misc:Depends} 
+Suggests: initramfs-tools
+Replaces: firmware-atheros, firmware-linux-free, firmware-qcom-soc
+Description: Binary firmware for Qualcomm Atheros wireless cards
+
+Package: linux-firmware-atmel
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Atmel wireless networking chips
+
+Package: linux-firmware-broadcom
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-bnx2, firmware-bnx2x, firmware-misc-nonfree, firmware-brcm80211
+Description: Binary firmware for Broadcom/Cypress 802.11
+
+Package: linux-firmware-cavium
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-cavium
+Description: Binary firmware for Cavium Ethernet adapters
+
+Package: linux-firmware-chelsio
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Chelsio Terminator 3 1G/10G Ethernet adapter
+
+Package: linux-firmware-conexant
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Conexant USB Wifi/Bluetooth and others PCI devices
+
+Package: linux-firmware-dvb
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree, firmware-linux-free, firmware-siano
+Description: Binary firmware for Digital Video Broadcasting (DVB)
+
+Package: linux-firmware-edgeport
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for USB Inside Out Edgeport Serial Driver
+
+Package: linux-firmware-ene
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for ENE UB6250 SD card reader
+
+Package: linux-firmware-intel-bluetooth
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Intel Bluetooth USB
+
+Package: linux-firmware-intel-ethernet
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Intel Ethernet NIC
+
+Package: linux-firmware-intel-graphics
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Intel graphics chips
+
+Package: linux-firmware-intel-hfi1
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Intel OPA Gen 1 adapter
+
+Package: linux-firmware-intel-iscsi
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-linux-free
+Description: Binary firmware for Intel C600 SAS controller driver
+
+Package: linux-firmware-intel-qat
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Intel(R) QAT crypto accelerator
+
+Package: linux-firmware-intel-sound
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-intel-sound
+Description: Binary firmware for Intel sound devices
+
+Package: linux-firmware-iwlwifi
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-iwlwifi
+Description: Binary firmware for Intel Wireless Wifi
+
+Package: linux-firmware-kaweth
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for USB KLSI KL5USB101-based Ethernet device
+
+Package: linux-firmware-keyspan
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for USB Keyspan USA-xxx and PDA single-port serial device
+	
+Package: linux-firmware-libertas
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-libertas
+Description: Binary firmware for Marvell Libertas fullmac-type 802.11b/g cards
+
+Package: linux-firmware-mediatek
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for MediaTek devices
+
+Package: linux-firmware-mellanox
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Description: Binary firmware for Mellanox spectrum switch
+
+Package: linux-firmware-misc
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree, firmware-linux-free
+Description: Binary firmware for various drivers in the Linux kernel
+
+Package: linux-firmware-myricom
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-myricom
+Description: Binary firmware for MyriCOM Gigabit Ethernet
+
+Package: linux-firmware-netronome
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-netronome
+Description: Binary firmware for Netronome Flow Processor
+
+Package: linux-firmware-nvidia-graphics
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Nvidia graphics chips
+
+Package: linux-firmware-pcmcia
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-linux-free
+Description: Binary firmware for PCMCIA devices
+
+Package: linux-firmware-qlogic
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-qlogic, firmware-netxen
+Description: Binary firmware for Qlogic QLA devices
+
+Package: linux-firmware-ralink
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree, firmware-realtek
+Description: Binary firmware for Ralink wireless devices
+
+Package: linux-firmware-realtek
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-realtek
+Description: Binary firmware for Realtek wireless/bluetooth/wired devices
+
+Package: linux-firmware-samsung
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-samsung
+Description: Binary firmware for Samsung MFC video encoder/decoder driver
+
+Package: linux-firmware-ti
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-ti-connectivity
+Description: Binary firmware for Texas Instruments (TI) devices
+
+Package: linux-firmware-ueagle
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for USB ADSL Modems based on Eagle

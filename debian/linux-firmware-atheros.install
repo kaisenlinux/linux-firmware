@@ -1,0 +1,13 @@
+generated-firmwares/ar*.fw lib/firmware/
+generated-firmwares/ath9k_htc/ lib/firmware/
+generated-firmwares/ath3k-1.fw lib/firmware/
+generated-firmwares/ar3k/ lib/firmware/
+generated-firmwares/ath6k/ lib/firmware/
+generated-firmwares/ath10k/ lib/firmware/
+generated-firmwares/ath11k/ lib/firmware/
+generated-firmwares/carl* lib/firmware/
+generated-firmwares/qca/ lib/firmware/
+generated-firmwares/wil* lib/firmware/
+generated-firmwares/qcom/ lib/firmware/
+generated-firmwares/a300_* lib/firmware/
+

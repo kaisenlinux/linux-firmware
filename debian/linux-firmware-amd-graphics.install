@@ -1,0 +1,4 @@
+generated-firmwares/amdgpu/ lib/firmware/
+generated-firmwares/radeon/ lib/firmware/
+generated-firmwares/r128/ lib/firmware/
+

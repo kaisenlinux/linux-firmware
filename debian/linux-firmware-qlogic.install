@@ -1,0 +1,8 @@
+generated-firmwares/qlogic/ lib/firmware/
+generated-firmwares/ql* lib/firmware/
+generated-firmwares/phanfw* lib/firmware/
+generated-firmwares/qed/ lib/firmware/
+generated-firmwares/cbfw* lib/firmware/
+generated-firmwares/ctfw* lib/firmware/
+generated-firmwares/ct2* lib/firmware/
+

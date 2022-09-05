@@ -1,0 +1,3 @@
+generated-firmwares/intel/fw_ss* lib/firmware/intel/
+generated-firmwares/intel/IntcSST2.bin lib/firmware/intel/
+generated-firmwares/intel/dsp* lib/firmware/intel/

@@ -1,0 +1,3 @@
+generated-firmwares/rt2* lib/firmware/
+generated-firmwares/rt3* lib/firmware/
+generated-firmwares/rt7* lib/firmware/

@@ -1,0 +1,3 @@
+generated-firmwares/mt*.bin lib/firmware/
+generated-firmwares/mediatek/ lib/firmware/
+generated-firmwares/vpu* lib/firmware/

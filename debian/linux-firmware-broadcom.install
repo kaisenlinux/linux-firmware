@@ -1,0 +1,6 @@
+generated-firmwares/tigon/ lib/firmware/
+generated-firmwares/bnx2/ lib/firmware/
+generated-firmwares/bnx2x/ lib/firmware/
+generated-firmwares/brcm/ lib/firmware/
+generated-firmwares/cypress/ lib/firmware/
+

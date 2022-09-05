@@ -1,0 +1,3 @@
+generated-firmwares/i915/ lib/firmware/
+generated-firmwares/intel/irci* lib/firmware/
+generated-firmwares/intel/ipu3* lib/firmware/

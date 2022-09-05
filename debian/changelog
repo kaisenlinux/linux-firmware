@@ -1,0 +1,6 @@
+linux-firmware (20220815-1kaisen) kaisen-testing; urgency=medium
+
+  * Initial release to replace firmware-nonfree source package created by
+    Debian Kernel team
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 05 Sep 2022 05:01:04 +0100

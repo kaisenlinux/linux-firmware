@@ -1,0 +1,10 @@
+generated-firmwares/av7110/ lib/firmware/
+generated-firmwares/dvb* lib/firmware/
+generated-firmwares/tlg* lib/firmware/
+generated-firmwares/as102* lib/firmware/
+generated-firmwares/cmmb* lib/firmware/
+generated-firmwares/isdbt* lib/firmware/
+generated-firmwares/sms1* lib/firmware/
+generated-firmwares/tdmb* lib/firmware/
+generated-firmwares/ttusb-budget/ lib/firmware/
+
