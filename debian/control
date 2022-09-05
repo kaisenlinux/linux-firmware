@@ -51,7 +51,6 @@ Package: linux-firmware-amphion
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
-Replaces: amd64-microcode
 Description: Binary firmware for Amphion VPU(Video Processing Unit) Codec IP
 
 Package: linux-firmware-atheros
@@ -84,7 +83,7 @@ Package: linux-firmware-cadence
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
-Replaces: firmware-bnx2, firmware-bnx2x, firmware-misc-nonfree, firmware-brcm80211
+Replaces: firmware-misc-nonfree
 Description: Binary firmware for Cadence MHDP8546 DP bridge
 
 Package: linux-firmware-cavium
@@ -105,7 +104,6 @@ Package: linux-firmware-cirrus
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
-Replaces: firmware-misc-nonfree
 Description: Binary firmware for CS35l41 ALSA HDA audio driver
 
 Package: linux-firmware-conexant
@@ -119,7 +117,6 @@ Package: linux-firmware-dpaa2
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
-Replaces: firmware-misc-nonfree, firmware-linux-free, firmware-siano
 Description: Binary firmware for NXP Management Complex Bus
 
 Package: linux-firmware-doc
@@ -258,7 +255,7 @@ Package: linux-firmware-multitec-usb
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
-Replaces: firmware-misc-nonfree, firmware-linux-free
+Replaces: firmware-misc-nonfree
 Description: Binary firmware for Multi-Tech USB
 
 Package: linux-firmware-myricom
@@ -326,12 +323,14 @@ Package: linux-firmware-rockchip
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
 Description: Binary firmware for ROCKCHIP rk3399 dptx
 
 Package: linux-firmware-rocketport
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
 Description: Binary firmware for Comtrol RocketPort 2 serial
 
 Package: linux-firmware-samsung
@@ -345,12 +344,14 @@ Package: linux-firmware-sensoray
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
 Description: Binary firmware for Sensoray video capture models
 
 Package: linux-firmware-tehuti
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
 Description: Binary firmware for Tehuti Networks 10G Ethernet
 
 Package: linux-firmware-ti
@@ -371,6 +372,7 @@ Package: linux-firmware-usbdux
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: initramfs-tools
+Replaces: firmware-linux-free
 Description: Binary firmware for usbdux data acquisition cards
 
 Package: linux-firmware-vxge
