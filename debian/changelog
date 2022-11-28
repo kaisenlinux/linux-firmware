@@ -1,3 +1,9 @@
+linux-firmware (20221109-1kaisen) kaisen-packages; urgency=medium
+
+  * Import the 20221109 upstream
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 28 Nov 2022 21:52:49 +0100
+
 linux-firmware (20220913-1kaisen) kaisen-packages; urgency=medium
 
   * Import the 20220913 upstream
