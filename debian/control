@@ -1,5 +1,5 @@
 Source: linux-firmware
-Section: non-free-firmware/kernel
+Section: non-free/kernel
 Priority: optional
 Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 Build-Depends: debhelper-compat (= 13)
