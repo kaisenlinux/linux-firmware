@@ -4,7 +4,7 @@ linux-firmware (20230310-1kaisen) kaisen-packages; urgency=medium
   * Move the ibt directory in /lib/firmware/intel/ to solve the non detected firmware
     (see https://forum.kaisenlinux.org/t/firmware-failed-to-load-intel-ibt-19-0-4-sfi-ddc/313)
   * Move packages and sources in the non-free-firmware area in the repository
-  * Add the NXB firmware in the linux-firmware-misc package
+  * Add the NXP firmware in the linux-firmware-misc package
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 19 Mar 2023 14:26:52 +0100
 
