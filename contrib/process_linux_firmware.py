@@ -25,15 +25,17 @@ class ContentType(Enum):
 
 
 content_types = {
+    "are available in the Git repository at": ContentType.PULL_REQUEST,
     "diff --git": ContentType.PATCH,
     "Signed-off-by:": ContentType.PATCH,
-    "are available in the Git repository at": ContentType.PULL_REQUEST,
 }
 
 
 def classify_content(content):
     # load content into the email library
     msg = email.message_from_string(content)
+    decoded = None
+    body = None
 
     # check the subject
     subject = msg["Subject"]
@@ -42,17 +44,28 @@ def classify_content(content):
     if "PATCH" in subject:
         return ContentType.PATCH
 
-    for part in msg.walk():
-        if part.get_content_type() == "text/plain":
+    if msg.is_multipart():
+        for part in msg.walk():
+            if part.get_content_type() == "text/plain":
+                body = part.get_payload(decode=True)
+    else:
+        body = msg.get_payload(decode=True)
+
+    if body:
+        for encoding in ["utf-8", "windows-1252"]:
             try:
-                body = part.get_payload(decode=True).decode("utf-8")
-                for key in content_types.keys():
-                    if key in body:
-                        return content_types[key]
+                decoded = body.decode(encoding)
                 break
-            except UnicodeDecodeError as e:
-                logging.warning("Failed to decode email: %s, treating as SPAM" % e)
-                break
+            except UnicodeDecodeError:
+                pass
+
+    if decoded:
+        for key in content_types.keys():
+            if key in decoded:
+                return content_types[key]
+    else:
+        logging.warning("Failed to decode email: %s, treating as SPAM", body)
+
     return ContentType.SPAM
 
 
@@ -68,6 +81,11 @@ def quiet_cmd(cmd):
 
 
 def reply_email(content, branch):
+    user = None
+    password = None
+    server = None
+    port = None
+
     if "SMTP_USER" in os.environ:
         user = os.environ["SMTP_USER"]
     if "SMTP_PASS" in os.environ:
@@ -83,15 +101,26 @@ def reply_email(content, branch):
     reply = email.message.EmailMessage()
 
     orig = email.message_from_string(content)
-    reply["To"] = ", ".join(
-        email.utils.formataddr(t)
-        for t in email.utils.getaddresses(
-            orig.get_all("from", []) + orig.get_all("to", []) + orig.get_all("cc", [])
+    try:
+        reply["To"] = ", ".join(
+            email.utils.formataddr(t)
+            for t in email.utils.getaddresses(
+                orig.get_all("from", [])
+                + orig.get_all("to", [])
+                + orig.get_all("cc", [])
+            )
         )
-    )
+    except ValueError:
+        logging.warning("Failed to parse email addresses, not sending email")
+        return
 
     reply["From"] = "linux-firmware@kernel.org"
-    reply["Subject"] = "Re: {}".format(orig["Subject"])
+    try:
+        reply["Subject"] = "Re: {}".format(orig["Subject"])
+    except ValueError:
+        logging.warning("Failed to parse subject, not sending email")
+        return
+
     reply["In-Reply-To"] = orig["Message-Id"]
     reply["References"] = orig["Message-Id"]
     reply["Thread-Topic"] = orig["Thread-Topic"]
@@ -142,14 +171,26 @@ def delete_branch(branch):
     quiet_cmd(["git", "branch", "-D", branch])
 
 
-def process_pr(url, num, remote):
+def process_pr(mbox, num, remote):
     branch = "robot/pr-{}-{}".format(num, int(time.time()))
-    cmd = ["b4", "pr", "-b", branch, url]
-    try:
-        quiet_cmd(cmd)
-    except subprocess.CalledProcessError:
-        logging.warning("Failed to apply PR")
-        return None
+
+    # manual fixup for PRs from drm firmware repo
+    if "git@gitlab.freedesktop.org:drm/firmware.git" in mbox:
+        mbox = mbox.replace(
+            "git@gitlab.freedesktop.org:drm/firmware.git",
+            "https://gitlab.freedesktop.org/drm/firmware.git",
+        )
+
+    cmd = ["b4", "--debug", "pr", "-b", branch, "-"]
+    logging.debug("Running {}".format(cmd))
+    p = subprocess.Popen(
+        cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+    )
+    stdout, stderr = p.communicate(mbox.encode("utf-8"))
+    for line in stdout.splitlines():
+        logging.debug(line.decode("utf-8"))
+    for line in stderr.splitlines():
+        logging.debug(line.decode("utf-8"))
 
     # determine if it worked (we can't tell unfortunately by return code)
     cmd = ["git", "branch", "--list", branch]
@@ -157,6 +198,8 @@ def process_pr(url, num, remote):
     result = subprocess.check_output(cmd)
 
     if result:
+        for line in result.splitlines():
+            logging.debug(line.decode("utf-8"))
         logging.info("Forwarding PR for {}".format(branch))
         if remote:
             create_pr(remote, branch)
@@ -244,7 +287,6 @@ def process_database(conn, remote):
 
     # loop over all unprocessed urls
     for row in rows:
-
         branch = None
         msg = "Processing ({}%)".format(round(num / len(rows) * 100))
         print(msg, end="\r", flush=True)
@@ -260,7 +302,7 @@ def process_database(conn, remote):
 
         if classification == ContentType.PULL_REQUEST:
             logging.debug("Processing PR ({})".format(row[0]))
-            branch = process_pr(row[0], num, remote)
+            branch = process_pr(mbox, num, remote)
 
         if classification == ContentType.SPAM:
             logging.debug("Marking spam ({})".format(row[0]))
