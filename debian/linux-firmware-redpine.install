@@ -1,1 +1,2 @@
 generated-firmwares/rsi/ lib/firmware/
+generated-firmwares/rsi*.fw lib/firmware/

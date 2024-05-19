@@ -1,3 +1,6 @@
 generated-firmwares/intel/fw_ss* lib/firmware/intel/
 generated-firmwares/intel/IntcSST2.bin lib/firmware/intel/
 generated-firmwares/intel/dsp* lib/firmware/intel/
+generated-firmwares/intel/avs/ lib/firmware/intel/
+generated-firmwares/intel/catpt/ lib/firmware/intel/
+generated-firmwares/cs42l43.bin lib/firmware/

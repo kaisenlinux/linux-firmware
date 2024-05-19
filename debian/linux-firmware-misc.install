@@ -24,3 +24,8 @@ generated-firmwares/meson/ lib/firmware/
 generated-firmwares/lt96* lib/firmware/
 generated-firmwares/emi* lib/firmware/
 generated-firmwares/nxp/ lib/firmware/
+generated-firmwares/amlogic/ lib/firmware/
+generated-firmwares/arm/ lib/firmware/
+generated-firmwares/emi* lib/firmware/
+generated-firmwares/ixp4xx/ lib/firmware/
+generated-firmwares/tsse* lib/firmware/

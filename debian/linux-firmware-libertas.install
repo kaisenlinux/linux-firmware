@@ -1,4 +1,5 @@
 generated-firmwares/libertas/ lib/firmware/
 generated-firmwares/mwl8k/ lib/firmware/
+generated-firmwares/mwlwifi/ lib/firmware/
 generated-firmwares/mrvl/ lib/firmware/
 generated-firmwares/lbtf* lib/firmware/

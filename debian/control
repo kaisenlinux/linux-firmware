@@ -27,6 +27,13 @@ Suggests: initramfs-tools
 Replaces: firmware-misc-nonfree
 Description: Binary firmware for AdvanSys SCSI
 
+Package: linux-firmware-airoha
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-misc-nonfree
+Description: Binary firmware for Airoha devices
+
 Package: linux-firmware-alacritech
 Architecture: all
 Depends: ${misc:Depends}
@@ -198,6 +205,13 @@ Suggests: initramfs-tools
 Replaces: firmware-intel-sound
 Description: Binary firmware for Intel sound devices
 
+Package: linux-firmware-intel-vsc
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-iwlwifi
+Description: Binary firmware for Intel Visual Sensing Controller
+
 Package: linux-firmware-iwlwifi
 Architecture: all
 Depends: ${misc:Depends}
@@ -285,6 +299,13 @@ Depends: ${misc:Depends}
 Suggests: initramfs-tools
 Replaces: firmware-linux-free
 Description: Binary firmware for PCMCIA devices
+
+Package: linux-firmware-powervr
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: initramfs-tools
+Replaces: firmware-linux-free
+Description: Binary firmware for the PowerVR driver
 
 Package: linux-firmware-qlogic
 Architecture: all

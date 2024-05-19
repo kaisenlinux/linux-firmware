@@ -1,3 +1,5 @@
 generated-firmwares/ti/ lib/firmware/
 generated-firmwares/ti_* lib/firmware/
 generated-firmwares/ti-* lib/firmware/
+generated-firmwares/TAS* lib/firmware/
+generated-firmwares/INT88* lib/firmware/
