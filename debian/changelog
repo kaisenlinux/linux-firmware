@@ -1,6 +1,12 @@
+linux-firmware (20240811-1kaisen) kaisen-packages; urgency=medium
+
+  * Import the 20240811 upstream
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 18 Aug 2023 01:33:57 +0200
+
 linux-firmware (20240513-1kaisen) kaisen-packages; urgency=medium
 
-  * Import the 20250513 upstream
+  * Import the 20240513 upstream
   * Add a package to include the Intel VSC drivers
   * Add a package to include the PowerVR drivers
   * Add a package to include the Airoha devices

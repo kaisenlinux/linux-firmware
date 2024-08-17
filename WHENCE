@@ -1017,25 +1017,25 @@ File: iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
 File: iwlwifi-cc-a0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.206b0184.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-ty-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1059,7 +1059,7 @@ File: iwlwifi-ty-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ty-a0-gf-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-so-a0-gf4-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1083,7 +1083,7 @@ File: iwlwifi-so-a0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf4-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-so-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1107,7 +1107,7 @@ File: iwlwifi-so-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-so-a0-hr-b0-77.ucode
 Version: 74.f92b5fed.0
@@ -1128,7 +1128,7 @@ File: iwlwifi-so-a0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-hr-b0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
@@ -1144,6 +1144,9 @@ Version: 83.fb5c9aeb.0
 File: iwlwifi-gl-c0-fm-c0-90.ucode
 Version: 87.38c93dbc.0
 
+File: iwlwifi-gl-c0-fm-c0-92.ucode
+Version: 89.67ce4588.0
+
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
 File: iwlwifi-ma-b0-gf-a0-83.ucode
@@ -1153,7 +1156,7 @@ File: iwlwifi-ma-b0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-ma-b0-gf-a0.pnvm
 
@@ -1164,7 +1167,7 @@ File: iwlwifi-ma-b0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf4-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-ma-b0-gf4-a0.pnvm
 
@@ -1173,6 +1176,9 @@ Version: 80.d24e06ed.0
 
 File: iwlwifi-ma-b0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
+
+File: iwlwifi-ma-b0-hr-b0-89.ucode
+Version: 83.202a2f7b.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2577,12 +2583,20 @@ File: amdgpu/gc_11_5_0_mes1.bin
 File: amdgpu/gc_11_5_0_mes_2.bin
 File: amdgpu/gc_11_5_0_pfp.bin
 File: amdgpu/gc_11_5_0_rlc.bin
+File: amdgpu/gc_11_5_1_imu.bin
+File: amdgpu/gc_11_5_1_me.bin
+File: amdgpu/gc_11_5_1_mec.bin
+File: amdgpu/gc_11_5_1_mes1.bin
+File: amdgpu/gc_11_5_1_mes_2.bin
+File: amdgpu/gc_11_5_1_pfp.bin
+File: amdgpu/gc_11_5_1_rlc.bin
 File: amdgpu/dcn_3_1_4_dmcub.bin
 File: amdgpu/dcn_3_1_5_dmcub.bin
 File: amdgpu/dcn_3_1_6_dmcub.bin
 File: amdgpu/dcn_3_2_0_dmcub.bin
 File: amdgpu/dcn_3_2_1_dmcub.bin
 File: amdgpu/dcn_3_5_dmcub.bin
+File: amdgpu/dcn_3_5_1_dmcub.bin
 File: amdgpu/psp_13_0_0_sos.bin
 File: amdgpu/psp_13_0_0_ta.bin
 File: amdgpu/psp_13_0_4_ta.bin
@@ -2603,6 +2617,8 @@ File: amdgpu/psp_13_0_11_ta.bin
 File: amdgpu/psp_13_0_11_toc.bin
 File: amdgpu/psp_14_0_0_ta.bin
 File: amdgpu/psp_14_0_0_toc.bin
+File: amdgpu/psp_14_0_1_ta.bin
+File: amdgpu/psp_14_0_1_toc.bin
 File: amdgpu/sdma_4_4_2.bin
 File: amdgpu/sdma_5_2_6.bin
 File: amdgpu/sdma_5_2_7.bin
@@ -2611,6 +2627,7 @@ File: amdgpu/sdma_6_0_1.bin
 File: amdgpu/sdma_6_0_2.bin
 File: amdgpu/sdma_6_0_3.bin
 File: amdgpu/sdma_6_1_0.bin
+File: amdgpu/sdma_6_1_1.bin
 File: amdgpu/smu_13_0_0.bin
 File: amdgpu/smu_13_0_6.bin
 File: amdgpu/smu_13_0_7.bin
@@ -2622,7 +2639,10 @@ File: amdgpu/vcn_4_0_2.bin
 File: amdgpu/vcn_4_0_3.bin
 File: amdgpu/vcn_4_0_4.bin
 File: amdgpu/vcn_4_0_5.bin
+File: amdgpu/vcn_4_0_6.bin
+File: amdgpu/vcn_4_0_6_1.bin
 File: amdgpu/vpe_6_1_0.bin
+File: amdgpu/vpe_6_1_1.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -3064,6 +3084,30 @@ the firmwares for wl18xx chips must be located in
 
 --------------------------------------------------------------------------
 
+Driver: cc33xx - Texas Instruments 802.11 WLAN driver for CC33xx chips
+
+File: ti-connectivity/cc33xx_2nd_loader.bin
+Version: 1.0.0.23
+File: ti-connectivity/cc33xx_fw.bin
+Version: 1.7.0.120
+File: ti-connectivity/cc33xx-conf.bin
+Version: 1.7.0.120
+
+Licence: Redistributable. See LICENCE.ti-connectivity for details.
+
+The cc33xx-conf.bin is a binary containing two parts: radio calibration
+and hardware configuration. The binary can be modified using the tool
+cc33conf which can be found in the CC33XX Linux SDK here: 
+
+https://www.ti.com/tool/CC33XX-SOFTWARE 
+
+The driver expects to find the firmwares under a ti-connectivity
+subdirectory.  So if your system looks for firmwares in /lib/firmware,
+the firmwares for cc33xx chips must be located in
+/lib/firmware/ti-connectivity/.
+
+--------------------------------------------------------------------------
+
 Driver: TI_ST - Texas Instruments bluetooth driver
 
 File: ti-connectivity/TIInit_6.2.31.bts
@@ -3226,6 +3270,7 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 Driver: rtw88 - Realtek 802.11ac WLAN driver for RTL8822BE and RTL8822CE
 
 Info: Sent to Larry Finger by Realtek engineer Yan-Hsuan Chuang <yhchuang@realtek.com>
+File: rtw88/rtw8821a_fw.bin
 File: rtw88/rtw8822b_fw.bin
 File: rtw88/rtw8822c_fw.bin
 File: rtw88/rtw8822c_wow_fw.bin
@@ -3253,13 +3298,15 @@ File: rtw89/rtw8851b_fw.bin
 File: rtw89/rtw8852a_fw.bin
 File: rtw89/rtw8852b_fw.bin
 File: rtw89/rtw8852b_fw-1.bin
+File: rtw89/rtw8852bt_fw.bin
 File: rtw89/rtw8852c_fw.bin
+File: rtw89/rtw8852c_fw-1.bin
 File: rtw89/rtw8922a_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
    These firmware support 802.11ax chips including RTL8851B, RTL8852A,
-   RTL8852B and RTL8852C and 802.11be chip including RTL8922A.
+   RTL8852B, RTL8852BT and RTL8852C and 802.11be chip including RTL8922A.
 
 --------------------------------------------------------------------------
 
@@ -3883,14 +3930,17 @@ File: intel/ibt-12-16.ddc
 Version: BT_WindStormPeak_REL1299
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL1299
+
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20397
+File: intel/ibt-18-16-1.sfi
+File: intel/ibt-18-16-1.ddc
+File: intel/ibt-18-2.sfi
+File: intel/ibt-18-2.ddc
+Version: BT_Pulsar_REL20425_22.20.2412.20425
+
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3899,14 +3949,7 @@ File: intel/ibt-17-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
-File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL20397
+
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3982,7 +4025,7 @@ File: intel/ibt-0040-1050.sfi
 File: intel/ibt-0040-1050.ddc
 File: intel/ibt-1040-1050.sfi
 File: intel/ibt-1040-1050.ddc
-Version: BT_Solar_REL81454_23.50.24144.81454
+Version: BT_Solar_REL81528_23.50.24183.81528
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
@@ -3996,7 +4039,7 @@ Version: BT_SolarJfp_REL151_22.180.2405.151
 
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
-Version: BT_BlazarU_S_REL56888_23.50.24144.56888
+Version: BT_BlazarU_S_REL58211_23.60.24183.58211
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4004,7 +4047,7 @@ File: intel/ibt-0180-4150.sfi
 File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_REL103171_23.50.24144.103171
+Version: BT_Magnetar_REL103243_23.50.24183.103243
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4139,9 +4182,9 @@ Version: 2018-05-24
 RawFile: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 RawFile: amd-ucode/microcode_amd_fam17h.bin
-Version: 2023-12-05
+Version: 2024-07-10
 RawFile: amd-ucode/microcode_amd_fam19h.bin
-Version: 2024-01-16
+Version: 2024-07-10
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -4237,6 +4280,8 @@ File: qat_c62x_mmp.bin
 Link: qat_mmp.bin -> qat_895xcc_mmp.bin
 File: qat_4xxx.bin
 File: qat_4xxx_mmp.bin
+File: qat_402xx.bin
+File: qat_402xx_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
 
@@ -4326,7 +4371,7 @@ Version: 9.21.00.4899
 Link: intel/dsp_fw_release.bin -> avs/skl/dsp_basefw.bin
 Link: intel/dsp_fw_kbl.bin -> avs/skl/dsp_basefw.bin
 File: intel/avs/apl/dsp_basefw.bin
-Version: 9.22.01.4908
+Version: 9.22.01.4917
 Link: intel/dsp_fw_bxtn.bin -> avs/apl/dsp_basefw.bin
 Link: intel/dsp_fw_glk.bin -> avs/apl/dsp_basefw.bin
 File: intel/avs/cnl/dsp_basefw.bin
@@ -4334,6 +4379,26 @@ Version: 10.23.00.8551
 Link: intel/dsp_fw_cnl.bin -> avs/cnl/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
+
+File: intel/avs/da7219-tplg.bin
+File: intel/avs/dmic-tplg.bin
+File: intel/avs/hda-808628xx-3ep-tplg.bin
+Link: intel/avs/hda-8086-generic-tplg.bin -> hda-808628xx-3ep-tplg.bin
+File: intel/avs/hda-generic-1ep-tplg.bin
+Link: intel/avs/hda-generic-tplg.bin -> hda-generic-1ep-tplg.bin
+File: intel/avs/max98357a-tplg.bin
+File: intel/avs/max98373-tplg.bin
+File: intel/avs/max98927-tplg.bin
+File: intel/avs/nau8825-tplg.bin
+File: intel/avs/rt274-tplg.bin
+File: intel/avs/rt286-tplg.bin
+File: intel/avs/rt298-tplg.bin
+File: intel/avs/rt5514-tplg.bin
+File: intel/avs/rt5640-tplg.bin
+File: intel/avs/rt5663-tplg.bin
+File: intel/avs/ssm4567-tplg.bin
+
+License: Apache-2.0. See Apache-2 for details.
 
 --------------------------------------------------------------------------
 
@@ -4844,7 +4909,7 @@ File: i915/tgl_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Tigerlake
 
 File: i915/tgl_guc_70.bin
-Version: GuC API/APB ver 70.20.0 for Tigerlake
+Version: GuC API/APB ver 70.29.2 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -4883,7 +4948,7 @@ File: i915/dg1_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for DG1
 
 File: i915/dg1_guc_70.bin
-Version: GuC API/APB ver 70.20.0 for DG1
+Version: GuC API/APB ver 70.29.2 for DG1
 
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
@@ -4925,7 +4990,7 @@ File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
 File: i915/adlp_guc_70.bin
-Version: GuC API/APB ver 70.20.0 for Alderlake P
+Version: GuC API/APB ver 70.29.2 for Alderlake P
 
 File: i915/dg2_guc_70.1.2.bin
 Version: GuC API/APB ver 70.1.2 for DG2
@@ -4934,10 +4999,10 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.20.0 for DG2
+Version: GuC API/APB ver 70.29.2 for DG2
 
 File: i915/dg2_huc_gsc.bin
-Version: HuC API/APB ver 7.10.15 for DG2
+Version: HuC API/APB ver 7.10.16 for DG2
 
 File: i915/dg2_dmc_ver2_06.bin
 Version: DMC API/APB ver 2 release 6 for DG2
@@ -4952,30 +5017,42 @@ File: i915/mtl_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Meteorlake
 
 File: i915/mtl_dmc.bin
-Version: DMC API/APB ver 2 release 21 for Meteorlake
+Version: DMC API/APB ver 2 release 22 for Meteorlake
 
 File: i915/mtl_guc_70.bin
-Version: GuC API/APB ver 70.20.0 for Meteorlake
+Version: GuC API/APB ver 70.29.2 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
 Version: HuC API/APB ver 8.5.4 for Meteorlake
 
 File: i915/mtl_gsc_1.bin
-Version: GSC API/APB v1.0, release 102.0.0.1655, SVN 1 for Meteorlake
+Version: GSC API/APB v1.0, release 102.0.10.1878, SVN 1 for Meteorlake
 
 File: i915/bmg_dmc.bin
 Version: DMC API/APB ver 2 release 6 for Battlemage
 
 File: i915/xe2lpd_dmc.bin
-Version: DMC API/APB ver 2 release 20 for Xe2LPD
+Version: DMC API/APB ver 2 release 21 for Xe2LPD
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
 Driver: xe -- Intel Graphics driver
 
+File: xe/lnl_gsc_1.bin
+Version: GSC API/APB v1.0, release 104.0.0.1161, SVN 1 for Lunarlake
+
 File: xe/lnl_guc_70.bin
-Version: GuC API/APB ver 70.20.0 for Lunarlake
+Version: GuC API/APB ver 70.29.2 for Lunarlake
+
+File: xe/lnl_huc.bin
+Version: HuC API/APB ver 9.4.13 for Lunarlake
+
+File: xe/bmg_guc_70.bin
+Version: GuC API/APB ver 70.29.2 for Battlemage
+
+File: xe/bmg_huc.bin
+Version: HuC API/APB ver 8.2.10 for Battlemage
 
 License: Redistributable. See LICENSE.xe for details
 --------------------------------------------------------------------------
@@ -5676,9 +5753,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20240219110958a
+Version: 20240716150944a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20240219111038
+Version: 20240716151027
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5687,7 +5764,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20240219111427
+Version: 20240716150858
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5696,9 +5773,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20240409163301a
+Version: 20240716163242a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20240409163347
+Version: 20240716163327
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5707,7 +5784,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20240409163648
+Version: 20240716163157
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5886,12 +5963,13 @@ File: qcom/venus-6.0/venus.mbn
 
 Version: VIDEO.VE.6.0-00049-PROD-1
 
-File: qcom/vpu-1.0/venus.mbn
-Link: qcom/vpu-1.0/venus.mdt -> venus.mbn
+File: qcom/vpu/vpu20_p4.mbn
+Link: qcom/vpu-1.0/venus.mbn -> ../vpu/vpu20_p4.mbn
 
 Version: VIDEO.VPU.1.0-00087-PROD-1
 
-File: qcom/vpu-2.0/venus.mbn
+File: qcom/vpu/vpu20_p1.mbn
+Link: qcom/vpu-2.0/venus.mbn -> ../vpu/vpu20_p1.mbn
 
 Version: VIDEO.VPU.2.0-00049-PROD-1
 
@@ -5899,6 +5977,16 @@ Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+--------------------------------------------------------------------------
+
+Driver: iris - Qualcomm Iris video codec accelerator
+
+File: qcom/vpu/vpu30_p4.mbn
+
+Version: VIDEO.VPU.3.1-0076
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
@@ -5940,6 +6028,9 @@ File: qcom/a702_sqe.fw
 File: qcom/leia_pfp_470.fw
 File: qcom/leia_pm4_470.fw
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
+File: qcom/gen70500_gmu.bin
+File: qcom/gen70500_sqe.fw
+File: qcom/x1e80100/gen70500_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -6948,6 +7039,22 @@ File: cirrus/cs35l41-dsp1-spk-prot-17aa3865-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-17aa3865-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-17aa3866-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-17aa3866-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa38c7.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa38c8.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa38f9.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa38fa.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38c7-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38c7-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38c7-spkid0-l1.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38c7-spkid0-r1.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38c8-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38c8-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38c8-spkid1-l1.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38c8-spkid1-r1.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38fa-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38fa-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38f9-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa38f9-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8c26.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8b42.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8b43.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
@@ -7143,8 +7250,7 @@ Version: v0.2.1
 File: mediatek/sof/sof-mt8195.ri
 File: mediatek/sof/sof-mt8195.ldc
 File: mediatek/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682.tplg
-File: mediatek/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682-dts.tplg
-Version: v0.4.1
+Version: v0.4.2
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -7190,13 +7296,17 @@ Originates from https://git.linaro.org/people/srinivas.kandagatla/audioreach-top
 --------------------------------------------------------------------------
 
 Driver: amlogic - Amlogic SoC Firmware
-File: amlogic/bluetooth/w2_bt_fw_uart.bin
-Version: 38.01
-Info: 0xa914
+File: amlogic/aml_w155s2_bt_uart.bin
+Version: 42.23
+Info: 0x2de8
 
-File: amlogic/bluetooth/w1u_bt_fw_uart.bin
-Version: 41.05
-Info: 0xb024
+File: amlogic/aml_w265s1_bt_uart.bin
+Version: 43.13
+Info: 0xc1c2
+
+File: amlogic/aml_w265s2_bt_uart.bin
+Version: 42.28
+Info: 0xb2fd
 
 Licence: Redistributable. See LICENSE.amlogic for details
 
@@ -7291,10 +7401,8 @@ Link: TAS2XXX38E0.bin -> ti/tas2781/TAS2XXX38E0.bin
 Link: TIAS2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
 
-Licence: Allegedly GPLv2+, but no source visible. Marked:
-	 Copyright (C) 2023 Texas Instruments
-
-Found in hex form in kernel source.
+Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
+	 Copyright (C) 2023 - 2024 Texas Instruments
 
 --------------------------------------------------------------------------
 
@@ -7304,10 +7412,8 @@ File: ti/tas2563/INT8866RCA2.bin
 Link: TAS2XXX3870.bin -> ti/tas2563/TAS2XXX3870.bin
 Link: INT8866RCA2.bin -> ti/tas2563/INT8866RCA2.bin
 
-Licence: Allegedly GPLv2+, but no source visible. Marked:
-	 Copyright (C) 2023 Texas Instruments
-
-Found in hex form in kernel source.
+Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
+	 Copyright (C) 2023 - 2024 Texas Instruments
 
 --------------------------------------------------------------------------
 
@@ -7324,3 +7430,29 @@ File: arm/mali/arch10.8/mali_csffw.bin
 Version: arch10.8
 
 License: Redistributable. See LICENCE.mali_csffw for details
+
+--------------------------------------------------------------------------
+Driver: isp - Image Signal Processor (ISP) device
+File: amdgpu/isp_4_1_1.bin
+
+License: Redistributable. See LICENSE.amdisp for details
+
+--------------------------------------------------------------------------
+
+Driver: qaic - Qualcomm Cloud AI accelerators
+File: qcom/aic100/fw1.bin
+File: qcom/aic100/fw10.bin
+File: qcom/aic100/fw2.bin
+File: qcom/aic100/fw5.bin
+File: qcom/aic100/fw9.bin
+File: qcom/aic100/sbl.bin
+
+License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: ish - Intel Integrated Sensor Hub
+File: intel/ish/ish_lnlm.bin
+Version: 5.8.0.7716
+
+License: Redistributable. See LICENCE.ish for details
